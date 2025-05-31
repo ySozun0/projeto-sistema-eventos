@@ -1,12 +1,31 @@
-
+# Arquivos e diretórios compilados do Java
 bin/
 *.class
 
+# Arquivos de Log
+*.log
 
+# Arquivo de dados gerado pela aplicação
 events.data
 
-
+# Arquivos específicos do VS Code
 .vscode/
 
+# Arquivos do BlueJ
+*.ctxt
 
-*.log
+# Mobile Tools for Java (J2ME)
+mtj.tmp/
+
+# Arquivos de Pacote (JAR, WAR, etc.)
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs de crash da máquina virtual Java
+hs_err_pid*
+replay_pid*
